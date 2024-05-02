@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gumo efectos®</string>
+    <string name="main_menu">Main menu</string>
+    <string name="Apocalipsis"> Apocalipsis</string>
+    <string name="Andromeda">Andromeda</string>
+    <string name="Nautilus">Nautilus</string>
+    <string name="Lighthouse">Lighthouse</string>
+    <string name="Saturno">Saturno</string>
+    <string name="Fuzzilla">Fuziilla</string>
+    <string name="home">home</string>
+    <string name="Instagram"> Instagram</string>
+    <string name="Facebook"> Facebook</string>
+    <string name="Youtube">Youtube</string>
+    <string name="Pedalboard">Pedalboard</string>
+    <string name="back">back</string>
+
+
+</resources>

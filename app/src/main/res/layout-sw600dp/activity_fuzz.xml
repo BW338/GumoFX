@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondon"
+    tools:context="gcom.example.gumoc.fuzz">
+
+    <TableLayout
+        android:id="@+id/tabla1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:visibility="visible">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/nset1a"
+                android:layout_width="278dp"
+                android:layout_height="271dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:onClick="set1a"
+                app:srcCompat="@drawable/fmba" />
+
+            <ImageView
+                android:id="@+id/nset2a"
+                android:layout_width="278dp"
+                android:layout_height="271dp"
+                android:layout_marginTop="40dp"
+                android:onClick="set2a"
+                app:srcCompat="@drawable/fmbb" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/nset3a"
+                android:layout_width="278dp"
+                android:layout_height="271dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="set3a"
+                app:srcCompat="@drawable/fmbc" />
+
+            <ImageView
+                android:id="@+id/nset4a"
+                android:layout_width="278dp"
+                android:layout_height="271dp"
+                android:layout_marginTop="10dp"
+                android:onClick="set4a"
+                app:srcCompat="@drawable/fmbd"
+                tools:ignore="DuplicateClickableBoundsCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tabla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:visibility="visible">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/nset1b"
+                android:layout_width="278dp"
+                android:layout_height="271dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:onClick="set1b"
+                app:srcCompat="@drawable/fmba" />
+
+            <ImageView
+                android:id="@+id/nset2b"
+                android:layout_width="278dp"
+                android:layout_height="271dp"
+                android:layout_marginTop="40dp"
+                android:onClick="set2b"
+                app:srcCompat="@drawable/fmbb" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/nset3b"
+                android:layout_width="278dp"
+                android:layout_height="271dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:onClick="set3b"
+                app:srcCompat="@drawable/fmbc" />
+
+            <ImageView
+                android:id="@+id/nset4b"
+                android:layout_width="278dp"
+                android:layout_height="271dp"
+                android:layout_marginTop="10dp"
+                android:onClick="set4b"
+                app:srcCompat="@drawable/fmbd" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/n"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:onClick="fnautilus"
+            app:srcCompat="@drawable/n1200"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+
+            android:id="@+id/a"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:onClick="napocalipsis"
+            app:srcCompat="@drawable/a1200"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/s"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:onClick="s"
+            app:srcCompat="@drawable/s1200"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/l"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#00000000"
+            android:onClick="nlighthouse"
+            app:srcCompat="@drawable/l1200" />
+
+        <ImageView
+            android:id="@+id/an"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:onClick="nandromeda"
+            app:srcCompat="@drawable/an1200"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:onClick="npedalboard"
+            app:srcCompat="@drawable/pedalboard50"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/tabla1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Lighthouse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="255"
+        android:fontFamily="@font/ffuente"
+        android:text="FUZZILLA"
+        android:textColor="#065326"
+        android:textSize="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fuzz"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Lighthouse"
+        app:layout_constraintStart_toStartOf="@+id/Lighthouse"
+        app:layout_constraintTop_toBottomOf="@+id/Lighthouse" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETEOS "
+        android:textColor="#3E3B3B"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gumoc"
+    android:screenOrientation="portrait">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gumoc">
+
+        <activity
+            android:name="gcom.example.gumoc.tremolo"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name="gcom.example.gumoc.saturno"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name="gcom.example.gumoc.box"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.fuzz"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.fuzzilla"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.reverb"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.overdrive"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.lseteos"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.nseteos"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.segunda"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.youtube"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.facebook"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.instagram"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.andromeda"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.lighthouse"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.apocalipsis"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.Nautilus"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="gcom.example.gumoc.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.365625" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/drawable/back.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/drawable/fondon.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/drawable/fondonmini.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/drawable/fondosegunda.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/drawable/home.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/drawable/ic_baseline_maps_ugc_24.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/drawable/ic_launcher_background.xml" value="0.365625" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/drawable/ic_prueba.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/font/fuentes.xml" value="0.3848958333333333" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_andromeda.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_apocalipsis.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_box.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_facebook.xml" value="0.257421875" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_fuzz.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_fuzzilla.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_lighthouse.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_lseteos.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_nautilus.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_nseteos.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_overdrive.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_reverb.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_saturno.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_segunda.xml" value="0.3217081850533808" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout-sw600dp/activity_tremolo.xml" value="0.51484375" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_andromeda.xml" value="0.22" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_apocalipsis.xml" value="0.22" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_box.xml" value="0.33" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_facebook.xml" value="0.33" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_fuzz.xml" value="0.25" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_fuzzilla.xml" value="0.25" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_instagram.xml" value="0.25" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_lighthouse.xml" value="0.22" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_lseteos.xml" value="0.22" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_main2.xml" value="0.1921875" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_nautilus.xml" value="0.33" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_nseteos.xml" value="0.25" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_overdrive.xml" value="0.22" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_pedalboard.xml" value="0.5" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_reverb.xml" value="0.25" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_saturno.xml" value="0.2" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_segunda.xml" value="0.20945319740500462" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_tremolo.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/activity_youtube.xml" value="0.35" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/layout/toolbar.xml" value="0.34322916666666664" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/menu/menu.xml" value="0.3546875" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/menu/menu_redes.xml" value="0.3546875" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/menu/menu_seteos.xml" value="0.178125" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/menu/overflow.xml" value="0.33" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2171875" />
+        <entry key="..\:/Users/Guido/AndroidStudioProjects/gumoc/app/src/main/res/mipmap-anydpi-v26/icono.xml" value="0.37083333333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

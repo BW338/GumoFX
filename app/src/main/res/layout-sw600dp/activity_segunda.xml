@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoespacio2"
+    tools:context="gcom.example.gumoc.segunda">
+
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gumob"
+        app:layout_constraintVertical_bias="0.333">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bn"
+                android:layout_width="307dp"
+                android:layout_height="514dp"
+                android:layout_marginLeft="90dp"
+                android:onClick="nautilus"
+                app:srcCompat="@drawable/n1200" />
+
+            <ImageView
+                android:id="@+id/ba"
+                android:layout_width="307dp"
+                android:layout_height="514dp"
+                android:layout_marginLeft="35dp"
+                android:onClick="apocalipsis"
+                app:srcCompat="@drawable/a1200" />
+
+
+            <ImageView
+                android:id="@+id/bl"
+                android:layout_width="307dp"
+                android:layout_height="514dp"
+                android:layout_marginLeft="35dp"
+                android:onClick="lighthouse"
+                app:srcCompat="@drawable/l1200" />
+
+            <ImageView
+                android:id="@+id/ban"
+                android:layout_width="307dp"
+                android:layout_height="514dp"
+                android:layout_marginLeft="35dp"
+                android:onClick="andromeda"
+                app:srcCompat="@drawable/an1200" />
+
+            <ImageView
+                android:id="@+id/bf"
+                android:layout_width="307dp"
+                android:layout_height="514dp"
+                android:layout_marginLeft="35dp"
+                android:onClick="fuzzilla"
+                app:srcCompat="@drawable/f1200" />
+
+            <ImageView
+                android:id="@+id/bs"
+                android:layout_width="307dp"
+                android:layout_height="514dp"
+                android:layout_marginLeft="35dp"
+                android:onClick="saturno"
+                app:srcCompat="@drawable/s1200" />
+
+            <ImageButton
+                android:id="@+id/bp"
+                android:layout_width="307dp"
+                android:layout_height="514dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginRight="100dp"
+                android:background="#00000000"
+                android:onClick="pedalboard"
+                app:srcCompat="@drawable/pedalboarda" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/byt"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:onClick="youtube"
+            app:srcCompat="@drawable/yt" />
+
+        <ImageView
+            android:id="@+id/bfb"
+            android:layout_width="wrap_content"
+            android:layout_height="109dp"
+            android:adjustViewBounds="true"
+            android:onClick="facebook"
+            android:paddingBottom="15dp"
+            app:srcCompat="@drawable/fb3" />
+
+        <ImageView
+            android:id="@+id/big"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:onClick="instagram"
+            app:srcCompat="@drawable/ig4" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/gumob"
+        android:layout_width="692dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logob" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/transparente"
+        android:onClick="play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode" />
+
+    <ImageButton
+        android:id="@+id/pausa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/transparente"
+        android:onClick="pausar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

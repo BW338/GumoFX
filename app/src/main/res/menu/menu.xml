@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Apocalipsis"
+        android:icon="@drawable/a1200"
+        android:iconTint="@color/amarillo"
+        android:title="@string/Apocalipsis" />
+
+    <item
+        android:id="@+id/Nautilus"
+        android:title="@string/Nautilus"
+        android:iconTint="@color/azul"
+        android:icon="@drawable/s1200"
+        android:iconTintMode="add"
+
+        />
+    <item
+        android:id="@+id/Andromeda"
+        android:title="@string/Andromeda"
+        android:iconTint="@color/amarillo"
+        />
+    <item
+        android:id="@+id/Fuzzilla"
+        android:title="@string/Fuzzilla"
+        android:iconTint="@color/amarillo"
+        />
+
+    <item
+        android:id="@+id/saturno"
+        android:title="@string/Saturno"
+        android:iconTint="@color/amarillo"
+        />
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        app:showAsAction="always" />
+
+</menu>
